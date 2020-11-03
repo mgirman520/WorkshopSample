@@ -32,6 +32,7 @@ namespace Cauldron.Baccarat
             {
                 base.GameController.ExhaustCoroutine(coroutine);
             }
+
 			//You may use {Baccarat}'s innate power twice during your phase this turn.
 			if (base.GameController.ActiveTurnTaker == base.TurnTaker)
 			{
